@@ -3,10 +3,11 @@ import React from 'react';
 exports.onRenderBody = ({ setPreBodyComponents }, pluginOptions) => {
   return setPreBodyComponents([
     (<script
+      key={`gatsby-plugin-google-analytics`}
       dangerouslySetInnerHTML={{
         __html: `
           fbAsyncInit = function() {
-            FB.init(${pluginOptions});
+            FB.init(${{ ...pluginOptions }});
           };
 
           (function(d, s, id){
