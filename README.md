@@ -23,4 +23,4 @@ plugins: [
 
 ### Configuration
 
-You can find all initialization options in [official Facebook SDK reference](https://developers.facebook.com/docs/javascript/reference/FB.init)
+You can find all initialization options in [official Facebook SDK reference](https://developers.facebook.com/docs/javascript/reference/FB.init).
