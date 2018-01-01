@@ -1,0 +1,19 @@
+{
+  "name": "gatsby-plugin-facebook-sdk",
+  "version": "1.0.0",
+  "description": "Gatsby plugin to integrate Facebook Javascript SDK on your project.",
+  "author": "Heeryong Kang <drakang4@gamil.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "prepublish": "cross-env NODE_ENV=production npm run build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.1.3"
+  }
+}
