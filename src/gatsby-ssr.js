@@ -4,7 +4,7 @@ import stripIndent from 'strip-indent';
 exports.onRenderBody = ({ setPreBodyComponents }, pluginOptions) => {
   return setPreBodyComponents([
     (<script
-      key={`gatsby-plugin-google-analytics`}
+      key={`gatsby-plugin-facebook-sdk`}
       dangerouslySetInnerHTML={{
         __html: stripIndent`
           fbAsyncInit = function() {
