@@ -109,4 +109,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-gatsby-*.js
+/gatsby-*.js
