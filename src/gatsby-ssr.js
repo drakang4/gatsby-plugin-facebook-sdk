@@ -1,5 +1,5 @@
 import React from 'react';
-import stripIndent from 'strip-indent';
+import { stripIndent } from 'common-tags';
 
 exports.onRenderBody = ({ setPreBodyComponents }, pluginOptions) => {
   return setPreBodyComponents([
