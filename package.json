@@ -3,6 +3,10 @@
   "version": "1.0.4",
   "description": "Gatsby plugin to integrate Facebook Javascript SDK on your project.",
   "author": "Heeryong Kang <drakang4@gamil.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drakang4/gatsby-plugin-facebook-sdk.git"
+  },
   "license": "MIT",
   "scripts": {
     "build": "babel src --out-dir .",
