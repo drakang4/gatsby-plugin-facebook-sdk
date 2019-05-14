@@ -1,6 +1,10 @@
 {
   "name": "gatsby-plugin-facebook-sdk",
   "version": "1.0.6",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin"
+  ],
   "description": "Gatsby plugin to integrate Facebook Javascript SDK on your project.",
   "author": "Heeryong Kang <drakang4@gamil.com>",
   "repository": {
